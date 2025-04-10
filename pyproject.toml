@@ -1,0 +1,19 @@
+)/Users/minolidissanayake/anaconda3/envs/EEG/bin/python /Users/minolidissanayake/my-webscraping-agent/main.py
+[project]
+name = "my-webscraping-agent"
+version = "0.1.0"
+description = "A Python project to create a web scraping AI agent using ACI.dev and Firecrawl."
+authors = [
+    {name = "mindissa22"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "openai (>=1.72.0,<2.0.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
